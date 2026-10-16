@@ -18,6 +18,7 @@ on:
       - 'src/**.cpp'
       - 'Android/**'
       - '.github/workflows/android.yml'
+  workflow_dispatch: 
 
 jobs:
   build:
